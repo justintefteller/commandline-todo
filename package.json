@@ -1,0 +1,19 @@
+{
+  "name": "cetectodos",
+  "version": "1.0.0",
+  "description": "todos for work",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "todos": "./todos.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0"
+  }
+}
